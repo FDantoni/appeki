@@ -295,14 +295,14 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("Nascita")
     data_nascita = st.date_input("Data di nascita", value=date.today(),
-                                 key="dn")
+                                 key="dn", format="DD/MM/YYYY")
     ora_nascita  = st.time_input("Ora di nascita", value=time(8, 0),
                                  key="on", step=60)
 
 with col2:
     st.subheader("Prelievo")
     data_prelievo = st.date_input("Data del prelievo", value=date.today(),
-                                  key="dp")
+                                  key="dp", format="DD/MM/YYYY")
     ora_prelievo  = st.time_input("Ora del prelievo", value=time(12, 0),
                                   key="op", step=60)
 
