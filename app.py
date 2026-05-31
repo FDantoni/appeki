@@ -1,5 +1,5 @@
 """
-APPeki - Calcolatore Iperbilirubinemia Neonatale
+Calcolatore Iperbilirubinemia Neonatale
 Basato sul foglio Excel _APPeki FINAL.xlsx e sul nomogramma di Bhutani.
 """
 
@@ -283,7 +283,7 @@ def build_bhutani_chart(ore_paziente: float | None = None,
 # ─────────────────────────────────────────────────────────────────────────────
 
 st.set_page_config(page_title="APPeki", page_icon="🍋", layout="wide")
-st.title("🍋 APPeki – Calcolatore Iperbilirubinemia Neonatale")
+st.title("🍋 Calcolatore Iperbilirubinemia Neonatale")
 
 tables = load_tables()
 
