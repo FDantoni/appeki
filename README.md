@@ -64,6 +64,9 @@ python3 -m streamlit run app.py
 
 L'app si apre automaticamente nel browser all'indirizzo `http://localhost:8501`.
 
+### Esecuzione online (non richiede python sul dispositivo):
+Vai su: `https://appeki.streamlit.app/`
+
 ---
 
 ## File richiesti
